@@ -1,32 +1,29 @@
-# Scientific-Calculator-built-with-html-js-css
+# Dynamic Numismatic Website
 
-Making a Casio scientific calculator from scratch with HTML, CSS, and JavaScript as a web project.
+Developing a responsive front-end website dedicated to the world of **collectible coins**, created using **HTML** and **CSS** only.
 
 ## Description
 
-This web project aims to simulate the operation and features of a real calculator. It was created for self-improving skills in JavaScript, HTML, and CSS. The front-end design is inspired by a Casio calculator, implementing most of its functions with additional features like sound effects and background customization. However, some functions remain a work in progress due to their complexity. All contributions are appreciated.
+This ongoing web project focuses on designing a visually appealing and responsive website to showcase rare and collectible coins. Built purely with HTML and CSS, the site serves as the front-end layout for a future e-commerce platform, offering a clean and organized presentation of coin products.
 
-## Screenshots
+The design emphasizes clarity, accessibility, and a polished user experience across devices, making it ideal for collectors, sellers, or numismatic enthusiasts.
 
-![calculatorImg](https://github.com/marck001/Scientific-Calculator-using-html-js-css/assets/134501961/1b56c30c-2f03-4796-b288-e4fd12594634)
+### Key Features
 
-## Run the Project
+- **Fully Responsive Layout**: Ensures optimal viewing on desktops, tablets, and mobile devices.
+- **Structured Navigation**: Organized categories for easy browsing, including:
+  - Indian Coins (Ancient, Mughal, British, Republic)
+  - World Coins (Asian, European, African, North American, South American, Others)
+  - Proof Coins
+  - Indian Banknotes (British, Princely States, Republic, Error, Demonetised, Others)
+  - World Banknotes (Asian, European, African, American, Australian, Commemorative)
+  - Graded Coins & Banknotes
+- **Clean UI/UX Design**: Highlights products effectively with a grid-based layout.
+- **Hover Effects and Styling Details**: Enhances interactivity without the use of JavaScript.
+- **Scalable Front-End Foundation**: Ready for integration with back-end technologies and future e-commerce functionalities.
 
-1. Download the code and the rest of the folders.
-2. Launch the project by opening the `index.html` file.
-   -This link leads you directly to the github host page: https://marck001.github.io/Scientific-Calculator/
-## Usage Instructions
+This site currently serves as a front-end demo and visual prototype. Future updates may include JavaScript functionality and backend integration for live e-commerce support.
 
-- Use this calculator mostly to perform basic arithmetic operations.
-- Introduce a numerical value before pressing the function keys.
+---
 
-## Notes
-
-- The cursor control key is implemented to move through characters to the right and left.
-- Copy-and-paste features have replaced shift and alpha keys for convenience.
-- Some functions are temporarily omitted, such as log in any base, x/y, S⇔D, RCL, and hyp.
-
-## Contributing
-
-This project is open to contributions from the community. If you have suggestions or would like to contribute by implementing specific calculator functions, your help is highly valued. Feel free to submit pull requests, report issues, or contribute in any way that aligns with the project.
-
+🔗 **Live Demo:** [https://ayan14coins.github.io/Nuismatics_Page_FrontDEMO/](https://ayan14coins.github.io/Nuismatics_Page_FrontDEMO/)
