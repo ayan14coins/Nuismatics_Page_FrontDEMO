@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ayan14coins</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Kalam:wght@300&display=swap"
+        rel="stylesheet"> -->
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 3px white;
+            /* border-radius: 10px; */
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #55fbf9;
+            border-radius: 10px;
+            /* width: 20px */
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #55fbf8c4;
+        }
+
+        /*OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .bigcontainer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container1 {
+            /* border: #55fbf9 solid; */
+            height: 361px;
+            display: flex;
+            flex-direction: column;
+            width: 71px;
+            position: relative;
+            top: 150px;
+
+        }
+
+        /* .container1 .item img:hover{
+            box-shadow: 0px 0px 10px white;
+        } */
+
+        .container2 {
+            /* border: #55fbf9 solid; */
+            height: 117px;
+            display: flex;
+            padding: 5px;
+
+
+        }
+
+
+        .item {
+            /* border: #55fbf9 solid; */
+            margin: -1px;
+            padding: 10px;
+            width: 50px;
+            height: 50px;
+
+        }
+
+
+        #item6 {
+            /* border: #55fbf9 solid; */
+            padding: 30px;
+            width: 60px;
+            height: 60px;
+        }
+
+        #item6 img {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 25px;
+            top: 24px;
+            border: none;
+            border-radius: 50px;
+
+        }
+
+        #item1 img {
+            height: 55px;
+            width: 55px;
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+
+        #item2 img {
+            height: 55px;
+            width: 55px;
+            position: absolute;
+            top: 80px;
+            left: 8px;
+        }
+
+        #item3 img {
+            height: 55px;
+            width: 55px;
+            position: absolute;
+            top: 152px;
+            left: 8px;
+        }
+
+        #item4 img {
+            height: 48px;
+            width: 55px;
+            position: absolute;
+            top: 228px;
+            left: 8px;
+        }
+
+        #item5 img {
+            height: 55px;
+            width: 55px;
+            position: absolute;
+            top: 296px;
+            left: 8px;
+        }
+
+        .container3 {
+            border-radius: 50px;
+            height: 40px;
+            width: 1081px;
+            display: flex;
+            padding: 4px;
+            margin-top: -89px;
+            margin-left: 16px;
+            margin-right: -1px;
+            flex-wrap: wrap;
+            background-color: #55fbf9;
+            border: none;
+            z-index: 100;
+            position: sticky;
+            left: 143px;
+            top: 9px;
+
+
+        }
+
+        .btn1 {
+            margin: 6px 6px;
+            height: 28px;
+            width: 57px;
+            border-radius: 50px;
+            border: none;
+            font-weight: 800;
+            background-color: #55fbf9;
+        }
+
+        .btn {
+            margin: 6px 9px;
+            margin-right: -8px;
+            height: 28px;
+            width: 94px;
+            border-radius: 50px;
+            border: none;
+            font-weight: 800;
+            background-color: #55fbf9;
+        }
+
+        #active {
+            background-color: white;
+            color: black;
+        }
+
+        .btn1:hover {
+            background-color: black;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: black;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        #search {
+            width: 190px;
+            height: 28px;
+            margin: 6px -15px;
+            margin-left: 515px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding-left: 13px;
+        }
+
+        .container4 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .container5 {
+            width: 990px;
+            position: absolute;
+            top: 94px;
+            left: 205px;
+            font-family: 'Kalam', cursive;
+        }
+
+        .container6 {
+            display: flex;
+            position: absolute;
+            top: 240px;
+            left: 70px;
+
+        }
+
+        .container7 {
+            display: flex;
+            position: absolute;
+            top: 468px;
+            left: 70px;
+
+        }
+
+        .box {
+            height: 200px;
+            width: 360px;
+            margin-left: 24px;
+            border-radius: 15px;
+            transition-property: all;
+            transition-duration: 0.4s;
+            font-size: 50px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+
+        .box:hover {
+            /* background-repeat: no-repeat;   */
+            /* background-attachment: fixed; */
+            box-shadow: 0px 0px 50px #55fbf9;
+            background-color: black;
+            transition: all 0.4s;
+
+
+
+        }
+
+        .text a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #text1 {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            color: white;
+            left: 5px;
+            bottom: 235px;
+            height: 230px;
+            width: 362px;
+            transition: all 0.3s;
+        }
+
+        #box1:hover #text1 {
+            color: white;
+            bottom: 730px;
+            transition: all 0.4s;
+        }
+
+        .image1 {
+            object-fit: cover;
+            position: relative;
+            left: 155px;
+            height: 210px;
+            width: 210px;
+            top: -6px;
+            transition: all 0.3s;
+        }
+
+        #box1:hover .image1 {
+            transform: rotate(360deg);
+            height: 400px;
+            width: 400px;
+            left: 100px;
+            top: -50px;
+            opacity: 0.5;
+        }
+
+        #box1 li {
+            font-size: 25px;
+            font-family: cursive;
+            color: white;
+
+        }
+
+        #box1 li:hover {
+            text-shadow: 0px 0px 25px white;
+            font-size: 24.3px;
+
+        }
+
+        /* ........................................................................................................... */
+        /* ........................................................................................................... */
+        #text2 {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            color: white;
+            left: 5px;
+            bottom: 229px;
+            height: 230px;
+            width: 362px;
+            transition: all 0.3s;
+        }
+
+        #box2:hover #text2 {
+            color: white;
+            bottom: 730px;
+            transition: all 0.4s;
+        }
+
+        #box2 li {
+            font-size: 24px;
+            font-family: cursive;
+            color: white;
+
+        }
+
+        #box2 li:hover {
+            text-shadow: 0px 0px 25px white;
+            font-size: 24.3px;
+
+        }
+
+        .image2 {
+            object-fit: cover;
+            position: relative;
+            left: 159px;
+            height: 200px;
+            width: 200px;
+            top: 1px;
+            transition: all 0.3s;
+        }
+
+        #box2:hover .image2 {
+            transform: rotate(360deg);
+            height: 370px;
+            width: 370px;
+            left: 120px;
+            top: -52px;
+            opacity: 0.5;
+        }
+
+        /* ........................................................................................................... */
+        /* ........................................................................................................... */
+        #text3 {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            color: white;
+            left: 5px;
+            bottom: 427px;
+            height: 230px;
+            width: 362px;
+            transition: all 0.3s;
+        }
+
+        #box3:hover #text3 {
+            color: white;
+            bottom: 1100px;
+            transition: all 0.4s;
+        }
+
+        #box3 li {
+            font-size: 24px;
+            font-family: cursive;
+            color: white;
+
+        }
+
+        #box3 li:hover {
+            text-shadow: 0px 0px 25px white;
+            font-size: 24.3px;
+
+        }
+
+        .image3 {
+            object-fit: cover;
+            position: relative;
+            left: 180px;
+            height: 200px;
+            width: 200px;
+            top: 68px;
+            transition: all 0.3s;
+            transform: rotate(10deg);
+        }
+
+        #box3:hover .image3 {
+            transform: rotate(360deg);
+            height: 370px;
+            width: 370px;
+            left: 120px;
+            top: -52px;
+            opacity: 0.5;
+
+        }
+
+        .image31 {
+            object-fit: cover;
+            position: relative;
+            left: 214px;
+            height: 200px;
+            width: 200px;
+            top: -253px;
+            transition: all 0.3s;
+            transform: rotate(10deg);
+        }
+
+        #box3:hover .image31 {
+            transform: rotate(360deg);
+            height: 370px;
+            width: 370px;
+            left: 120px;
+            top: -52px;
+            opacity: 0.5;
+
+        }
+
+        /* ........................................................................................................... */
+        /* ........................................................................................................... */
+        #text4 {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            color: white;
+            left: 5px;
+            bottom: 400px;
+            height: 230px;
+            width: 362px;
+            transition: all 0.3s;
+        }
+
+        #box4:hover #text4 {
+            color: white;
+            bottom: 860px;
+            transition: all 0.4s;
+        }
+
+        #box4 li {
+            font-size: 24px;
+            font-family: cursive;
+            color: white;
+
+        }
+
+        #box4 li:hover {
+            text-shadow: 0px 0px 25px white;
+            font-size: 24.3px;
+
+        }
+
+        .image4 {
+            object-fit: cover;
+            position: relative;
+            left: 178px;
+            height: 380px;
+            width: 380px;
+            top: -170px;
+            transform: rotate(115deg);
+            transition: all 0.3s;
+        }
+
+        #box4:hover .image4 {
+            transform: rotate(360deg);
+            height: 500px;
+            width: 500px;
+            left: 80px;
+            top: -300px;
+            opacity: 0.5;
+        }
+
+        /* ........................................................................................................... */
+        /* ........................................................................................................... */
+        #text5 {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            color: white;
+            left: 5px;
+            bottom: 402px;
+            height: 230px;
+            width: 362px;
+            transition: all 0.3s;
+        }
+
+        #box5:hover #text5 {
+            color: white;
+            bottom: 860px;
+            transition: all 0.4s;
+        }
+
+        #box5 li {
+            font-size: 24px;
+            font-family: cursive;
+            color: white;
+
+        }
+
+        #box5 li:hover {
+            text-shadow: 0px 0px 25px white;
+            font-size: 24.3px;
+        }
+
+        .image5 {
+            object-fit: cover;
+            position: relative;
+            left: 178px;
+            height: 380px;
+            width: 380px;
+            top: -170px;
+            transform: rotate(-36deg);
+            transition: all 0.3s;
+        }
+
+        #box5:hover .image5 {
+            transform: rotate(360deg);
+            height: 500px;
+            width: 500px;
+            left: 80px;
+            top: -300px;
+            opacity: 0.5;
+        }
+
+        /* ........................................................................................................... */
+        /* ........................................................................................................... */
+        #text6 {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            color: white;
+            left: 5px;
+            bottom: 576px;
+            height: 230px;
+            width: 362px;
+            transition: all 0.3s;
+        }
+
+        #box6:hover #text6 {
+            color: white;
+            bottom: 1400px;
+            transition: all 0.4s;
+        }
+
+        #box6 li {
+            font-size: 24px;
+            font-family: cursive;
+            color: white;
+
+        }
+
+        #box6 li:hover {
+            text-shadow: 0px 0px 25px white;
+            font-size: 24.3px;
+
+        }
+
+        .image6 {
+            object-fit: cover;
+            position: relative;
+            left: 213px;
+            height: 330px;
+            width: 330px;
+            top: -63px;
+            transition: all 0.3s;
+            transform: rotate(79deg);
+        }
+
+        #box6:hover .image6 {
+            transform: rotate(450deg);
+            height: 460px;
+            width: 460px;
+            left: 145px;
+            top: -65px;
+            opacity: 0.5;
+
+        }
+
+        .image61 {
+            object-fit: cover;
+            position: relative;
+            left: 160px;
+            height: 95px;
+            width: 95px;
+            top: -331px;
+            transition: all 0.3s;
+            transform: rotate(-15deg);
+        }
+
+        #box6:hover .image61 {
+            transform: rotate(360deg);
+            height: 150px;
+            width: 150px;
+            left: -30px;
+            top: -385px;
+            opacity: 0.5;
+
+        }
+
+        .image62 {
+            object-fit: cover;
+            position: relative;
+            left: 157px;
+            height: 95px;
+            width: 95px;
+            top: -340px;
+            transition: all 0.3s;
+            transform: rotate(10deg);
+        }
+
+        #box6:hover .image62 {
+            transform: rotate(360deg);
+            height: 370px;
+            width: 370px;
+            left: 120px;
+            top: -52px;
+            opacity: 0.5;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="container4">
+
+            <div class="container2">
+                <div id="item6">
+                    <a href="#"><img src="Ayan14coins.jpeg" alt=""></a>
+                </div>
+            </div>
+            <div class="container5">
+                <marquee direction="up" scrolldelay="300">
+                    ayan14coins&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Collector's
+                    Paradise&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ayan14coins&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Collector's
+                    Paradise&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ayan14coins&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Collector's
+                    Paradise&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ayan14coins
+                </marquee>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="navb" id="item7">
+                <button class="btn1" id="active">Home</button>
+            </div>
+            <div class="navb" id="item8">
+                <button class="btn1">About</button>
+            </div>
+            <div class="navb" id="item9">
+                <button class="btn1">Shop</button>
+            </div>
+            <div class="navb" id="item10">
+                <button class="btn1">Help</button>
+            </div>
+            <div class="navb" id="item11">
+                <button class="btn">Contact Us</button>
+            </div>
+            <div class="s-box">
+                <input type="search" name="search" id="search" placeholder="Search here">
+            </div>
+        </div>
+
+
+
+
+        <div class="bigcontainer1">
+            <div class="container1">
+                <div class="item" id="item1">
+                    <a href="#"><img src="new-Instagram-logo-png-full-colour-glyph.png" alt=""></a>
+                </div>
+                <div class="item" id="item2">
+                    <a href="#"><img src="facebook-logo-2019.png" alt=""></a>
+                </div>
+                <div class="item" id="item3">
+                    <a href="#"><img src="Logo-WhatsApp.png" alt=""></a>
+                </div>
+                <div class="item" id="item4">
+                    <a href="#"><img src="Gmail-Logo.png" alt=""></a>
+                </div>
+                <div class="item" id="item5">
+                    <a href="#"><img src="newsletter-icon-37204.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="container6">
+                <div class="box" id="box1">
+                    <img class="image1" src="output.png">
+                    <div class="text" id="text1">
+                        <h3>Indian<br>Coins</h3><br>
+                        <ul>
+                            <li><a href="#">Ancient Coins</a></li>
+                            <li><a href="#">Mughal Coins</a></li>
+                            <li><a href="#">British Coins</a></li>
+                            <li><a href="#">Repulic Coins</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box" id="box2">
+                    <img class="image2" src="output (1).png">
+                    <div class="text" id="text2">
+                        <h3>World<br>Coins</h3><br>
+                        <ul>
+                            <li><a href="#">Asian Coins</a></li>
+                            <li><a href="#">European Coins</a></li>
+                            <li><a href="#">African Coins</a></li>
+                            <li><a href="#">North-American Coins</a></li>
+                            <li><a href="#">South-American</a></li>
+                            <li><a href="#">Others</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box" id="box3">
+                    <img class="image3" src="output (3).png">
+                    <img class="image31" src="output (4).png">
+                    <div class="text" id="text3">
+                        <h3>Proof<br>Coins</h3><br>
+                        <ul>
+                            <li><a href="#">Asian Coins</a></li>
+                            <li><a href="#">European Coins</a></li>
+                            <li><a href="#">African Coins</a></li>
+                            <li><a href="#">North-American Coins</a></li>
+                            <li><a href="#">South-American</a></li>
+                            <li><a href="#">Others</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container7">
+                <div class="box" id="box4">
+                    <img class="image4" src="output (7).png">
+                    <div class="text" id="text4">
+                        <h3>Indian<br>Banknotes</h3><br>
+                        <ul>
+                            <li><a href="#">British Banknotes</a></li>
+                            <li><a href="#">Princely States</a></li>
+                            <li><a href="#">Republic Banknotes</a></li>
+                            <li><a href="#">Error Banknotes</a></li>
+                            <li><a href="#">Demonetised Banknotes</a></li>
+                            <li><a href="#">Others</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box" id="box5">
+                    <img class="image5" src="output (8).png">
+                    <div class="text" id="text5">
+                        <h3>World<br>Banknotes</h3><br>
+                        <ul>
+                            <li><a href="#">Asian Banknotes</a></li>
+                            <li><a href="#">European Banknotes</a></li>
+                            <li><a href="#">African Banknotes</a></li>
+                            <li><a href="#">American Banknotes</a></li>
+                            <li><a href="#">Australian Banknotes</a></li>
+                            <li><a href="#">Commemorative Banknotes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box" id="box6">
+                    <img class="image6" src="output (15).png">
+                    <img class="image61" src="output (11).png">
+                    <img class="image62" src="output (16).png">
+                    <div class="text" id="text6">
+                        <h3>Graded<br>Coins<br>& Banknotes</h3><br>
+                        <ul>
+                            <li><a href="#">Graded Coins</a></li>
+                            <li><a href="#">Graded Banknotes</a></li>
+                            <li><a href="#">Grading Companies</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div style="position: relative; top: 1000px;">
+            <br><br><br><br><br>
+            <p>&nbsp;&nbsp;&nbsp;</p>
+        </div>
+
+    </header>
+
+</body>
+
+</html>
